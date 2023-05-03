@@ -1,3 +1,5 @@
+/* NAVBAR */
+
 .container-fluid {
 
     position: relative;
@@ -8,7 +10,19 @@
 
 }
 
+.ab {
 
+    transition: all 300ms;
+
+}
+
+.ab:hover {
+
+    transform: scale(1.05);
+    color: #443c30;
+
+
+}
 
 .navbar-brand p {
 
@@ -22,7 +36,9 @@
     letter-spacing: 0.175em;
     color: #5E5343;
 
+
 }
+
 
 .navbar-brand img {
 
@@ -34,18 +50,6 @@
 
 
 
-.navbarTR p {
-
-    margin-left: 32px;
-
-}
-
-.navbar1 a {
-
-    text-decoration: none;
-
-}
-
 .nav-item p {
 
     position: relative;
@@ -55,6 +59,14 @@
     font-weight: 400;
     font-size: 22px;
     color: #5E5343;
+    transition: all 300ms;
+
+}
+
+.nav-item p:hover {
+    transform: scale(1.05);
+    color: #443c30;
+
 
 
 }
@@ -63,10 +75,19 @@
 
     position: relative;
     margin-top: 17px;
+    right: 34px;
     font-family: 'Manrope';
     font-weight: 400;
     font-size: 22px;
     color: #5E5343;
-
+    transition: all 300ms;
 
 }
+
+.navbar-text p:hover {
+    transform: scale(1.05);
+    color: #443c30;
+
+}
+
+/* INDEX */
