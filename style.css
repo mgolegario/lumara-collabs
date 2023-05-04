@@ -10,19 +10,6 @@
 
 }
 
-.ab {
-
-    transition: all 300ms;
-
-}
-
-.ab:hover {
-
-    transform: scale(1.05);
-    color: #443c30;
-
-
-}
 
 .navbar-brand p {
 
@@ -31,7 +18,7 @@
     margin-left: 21px;
     font-style: normal;
     font-weight: 1000;
-    font-size: 23px;
+    font-size: 21px;
     line-height: 31px;
     letter-spacing: 0.175em;
     color: #5E5343;
@@ -49,6 +36,19 @@
 }
 
 
+#logo {
+
+    transition: all 300ms;
+
+}
+
+#logo:hover {
+
+    transform: scale(1.02);
+    color: #443c30;
+
+
+}
 
 .nav-item p {
 
@@ -63,8 +63,10 @@
 
 }
 
+
+
 .nav-item p:hover {
-    transform: scale(1.05);
+    transform: scale(1.04);
     color: #443c30;
 
 
@@ -75,6 +77,7 @@
 
     position: relative;
     margin-top: 17px;
+    margin-left: 80px;
     right: 34px;
     font-family: 'Manrope';
     font-weight: 400;
@@ -85,9 +88,17 @@
 }
 
 .navbar-text p:hover {
-    transform: scale(1.05);
+    transform: scale(1.04);
     color: #443c30;
 
+}
+
+
+#iframe {
+
+    height: 160px;
+    width: 100%;
+    background-color: #E6E0DB;
 }
 
 /* INDEX */
