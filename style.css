@@ -101,4 +101,32 @@
     background-color: #E6E0DB;
 }
 
+
 /* INDEX */
+
+#indexIMG {
+
+    width: 328px;
+    height: px;
+
+}
+
+
+#indexTxt {
+
+    font-family: 'Libre Caslon Text';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 480%;
+    line-height: 86px;
+    color: #5E5343;
+}
+
+
+
+.carousel {
+    position: relative;
+    display: block;
+    margin-top: auto;
+    margin-bottom: auto;
+}
