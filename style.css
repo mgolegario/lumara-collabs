@@ -124,18 +124,16 @@
 
 }
 
-
 .carousel {
     margin: 0px;
     position: absolute;
-    top: 50%;
-    transform: translate(0, 15%)
+    top: 90px;
 }
 
 /*colaboradores*/
 
 #colaboradoresTXT {
-
+    margin-bottom: 92px;
     font-style: normal;
     font-weight: 400;
     font-size: 96px;
@@ -145,33 +143,110 @@
 
 }
 
-.colaboradoresCARD1 {
-    display: block;
-    position: relative;
-    margin-right: 305px;
-    margin-bottom: 106px;
-    margin-top: 102px;
-}
+#card-title {
 
-.colaboradoresCARD2 {
-    display: block;
-    position: relative;
-    margin-bottom: 106px;
-    margin-top: 102px;
+    color: #443c30;
+
+
+
 }
 
 .colaboradoresLINK {
 
-    text-decoration: none;
-    transition: all 350ms;
+
+
+    transition: all 500ms;
 }
+
 
 .colaboradoresLINK:hover {
 
-    transform: scale(1.037);
+    transform: scale(1.019);
+    animation: 2s normal pisca infinite;
+    animation-direction: alternate;
+    display: table;
+    -webkit-animation-name: pisca;
+    animation-name: pisca;
 
-    -webkit-filter: drop-shadow(0px 0px 20px rgba(0 0 0 / 90%));
-    filter: drop-shadow(0px 0px 20px rgba(0 0 0 / 90%));
 
+}
+
+
+
+@-webkit-keyframes pisca {
+    0% {
+
+        filter: drop-shadow(0px 0px 15px rgba(0 0 0 / 0%));
+    }
+
+    100% {
+
+        filter: drop-shadow(0px 0px 15px rgba(0 0 0 / 90%));
+    }
+}
+
+@keyframes pisca {
+
+    0% {
+
+        filter: drop-shadow(0px 0px 15px rgba(0 0 0 / 0%));
+    }
+
+    100% {
+
+        filter: drop-shadow(0px 0px 15px rgba(0 0 0 / 90%));
+    }
+
+}
+
+
+
+
+/* nossa sala */
+#nossaSalaImg {
+
+    position: relative;
+
+
+    top: 121px;
+
+    width: 599px;
+    height: 464px;
+
+
+}
+
+#nossaSalaTitle {
+
+    position: relative;
+    margin-left: 55px;
+
+    top: 60px;
+
+    font-family: 'Manrope';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 76px;
+    line-height: 109px;
+
+    color: #5E5343;
+
+
+
+}
+
+#nossaSalaTxt {
+
+    position: relative;
+    top: 130px;
+    margin-left: 55px;
+
+    font-family: 'Manrope';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 38px;
+    text-align: justify;
+    color: #5E5343;
 
 }
