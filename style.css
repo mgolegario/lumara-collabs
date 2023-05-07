@@ -107,7 +107,6 @@
 #indexIMG {
 
     width: 328px;
-    height: px;
 
 }
 
@@ -120,13 +119,15 @@
     font-size: 480%;
     line-height: 86px;
     color: #5E5343;
+    transition: all 1000ms;
+    text-align: center;
+
 }
 
 
-
 .carousel {
-    position: relative;
-    display: block;
-    margin-top: auto;
-    margin-bottom: auto;
+    margin: 0px;
+    position: absolute;
+    top: 50%;
+    transform: translate(0, 15%)
 }
