@@ -30,7 +30,7 @@
 .navbar-brand img {
 
     position: relative;
-    width: px;
+
     height: 65px;
     top: -3px;
 }
@@ -109,10 +109,11 @@
 
     position: relative;
     display: block;
-    left: -40px;
-    top: 60px;
+    margin-left: 12px;
 
-    width: 60%;
+    left: -100px;
+    top: 60px;
+    width: 137%;
     height: 710px;
     border-radius: 30px;
     background-color: #282828;
@@ -124,13 +125,6 @@
 
     width: 300px;
 
-
-}
-
-#alinhamento {
-    position: inherit;
-    padding-top: 25%;
-    padding-bottom: 25%;
 
 }
 
@@ -148,6 +142,98 @@
 
 
 }
+
+
+#caixaSec {
+
+    position: relative;
+    display: block;
+    left: 115px;
+    top: 60px;
+    width: 90%;
+    height: 710px;
+    border-radius: 30px;
+    background-color: #AEAEAE;
+
+
+
+}
+
+/*animation: 5s normal pisca infinite;
+    animation-direction: alternate;
+    display: table;
+    -webkit-animation-name: teste;
+    animation-name: teste;
+
+}
+
+
+@keyframes teste {
+
+    0% {
+
+        opacity: 100%;
+    }
+
+    30% {
+
+       opacity: 0%;
+    }
+
+
+    100% {
+
+        opacity: 0%;
+     }
+
+
+
+    }
+
+
+    #caixaSec2 {
+
+        position: relative;
+        display: block;
+        left: 115px;
+        top: 60px;
+        width: 90%;
+        height: 710px;
+        border-radius: 30px;
+        background-color: #AEAEAE;
+    
+    
+    
+    
+        animation: 5s normal pisca infinite;
+        animation-direction: alternate;
+        display: table;
+        -webkit-animation-name: teste;
+        animation-name: teste;
+    
+    }
+
+*/
+
+
+
+
+#imgSec {
+    position: relative;
+    z-index: -1;
+    top: 22px;
+    opacity: 80%;
+}
+
+
+
+#alinhamento {
+    position: relative;
+    padding-top: 190px;
+
+}
+
+
 
 .carousel {
     margin: 0px;
