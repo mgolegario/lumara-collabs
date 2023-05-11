@@ -361,3 +361,48 @@
     color: #5E5343;
 
 }
+
+
+
+/* INTEGRANTE */
+
+
+#integranteImg1 {
+
+    position: relative;
+    padding-top: 30%;
+
+
+
+}
+
+#integranteImg2 {
+
+    position: relative;
+
+}
+
+#redesSociais {
+
+    font-family: 'Manrope';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 76px;
+    line-height: 109px;
+
+    color: #5E5343;
+
+}
+
+#txtInt {
+
+    font-family: 'Manrope';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 28px;
+    line-height: 38px;
+    text-align: justify;
+    color: #5E5343;
+
+
+}
