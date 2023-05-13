@@ -151,74 +151,19 @@
 }
 
 
+
+
 #caixaSec {
 
     position: relative;
     display: block;
-    left: 115px;
-    top: 145px;
     width: 90%;
     height: 710px;
     border-radius: 30px;
     background-color: #AEAEAE;
 
 
-    animation: 5s normal pisca infinite;
-    animation-direction: alternate;
-    display: table;
-    -webkit-animation-name: teste;
-    animation-name: teste;
-
 }
-
-
-@keyframes teste {
-
-    0% {
-
-        opacity: 100%;
-    }
-
-    30% {
-
-        opacity: 0%;
-    }
-
-
-    100% {
-
-        opacity: 0%;
-    }
-
-
-
-}
-
-
-#caixaSec2 {
-
-    position: relative;
-    display: block;
-    left: 115px;
-    top: 60px;
-    width: 90%;
-    height: 710px;
-    border-radius: 30px;
-    background-color: #AEAEAE;
-
-
-
-
-    animation: 5s normal pisca infinite;
-    animation-direction: alternate;
-    display: table;
-    -webkit-animation-name: teste;
-    animation-name: teste;
-
-}
-
-
-
 
 
 
@@ -229,6 +174,13 @@
     opacity: 80%;
 }
 
+#imgSec2 {
+    position: absolute;
+    z-index: -1;
+    top: 148px;
+    right: 0px;
+    opacity: 100%;
+}
 
 
 #alinhamento {
@@ -239,11 +191,6 @@
 
 
 
-.carousel {
-    margin: 0px;
-    position: absolute;
-    top: 90px;
-}
 
 
 
@@ -324,7 +271,12 @@
 
 
 
+#integrante {
 
+    width: 247px;
+
+
+}
 
 
 
@@ -416,7 +368,8 @@
 #integranteImg1 {
 
     position: relative;
-    padding-top: 30%;
+    margin-top: -50px;
+    height: 600px;
 
 
 
