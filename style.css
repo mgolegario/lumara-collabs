@@ -163,10 +163,7 @@
     background-color: #AEAEAE;
 
 
-
-}
-
-/*animation: 5s normal pisca infinite;
+    animation: 5s normal pisca infinite;
     animation-direction: alternate;
     display: table;
     -webkit-animation-name: teste;
@@ -184,43 +181,43 @@
 
     30% {
 
-       opacity: 0%;
+        opacity: 0%;
     }
 
 
     100% {
 
         opacity: 0%;
-     }
-
-
-
     }
 
 
-    #caixaSec2 {
 
-        position: relative;
-        display: block;
-        left: 115px;
-        top: 60px;
-        width: 90%;
-        height: 710px;
-        border-radius: 30px;
-        background-color: #AEAEAE;
-    
-    
-    
-    
-        animation: 5s normal pisca infinite;
-        animation-direction: alternate;
-        display: table;
-        -webkit-animation-name: teste;
-        animation-name: teste;
-    
-    }
+}
 
-*/
+
+#caixaSec2 {
+
+    position: relative;
+    display: block;
+    left: 115px;
+    top: 60px;
+    width: 90%;
+    height: 710px;
+    border-radius: 30px;
+    background-color: #AEAEAE;
+
+
+
+
+    animation: 5s normal pisca infinite;
+    animation-direction: alternate;
+    display: table;
+    -webkit-animation-name: teste;
+    animation-name: teste;
+
+}
+
+
 
 
 
@@ -453,5 +450,86 @@
     text-align: justify;
     color: #5E5343;
 
+
+}
+
+
+
+
+
+
+
+
+
+/* AMIGOS */
+
+#caixaAmg {
+
+    position: relative;
+    top: 250px;
+    margin-right: 80px;
+    background-color: #3F3F3F;
+    border-radius: 20px;
+    width: 525px;
+    height: 408px;
+
+}
+
+
+#imgAmg1 {
+    position: relative;
+    top: -292px;
+    height: 700px;
+    border-radius: 20px;
+}
+
+
+.tituloAmg {
+
+
+    font-family: 'Manrope';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 96px;
+    line-height: 131px;
+
+    color: #5E5343;
+
+}
+
+
+.corpoAmg {
+
+    position: relative;
+    margin-top: 50px;
+
+    font-family: 'Manrope';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 32px;
+    line-height: 44px;
+    text-align: justify;
+    color: #5E5343;
+
+
+}
+
+#caixaAmg2 {
+
+    position: relative;
+    margin-left: 80px;
+    background-color: #9c9c9c;
+    border-radius: 20px;
+    width: 550px;
+    height: 300px;
+
+}
+
+#imgAmg2 {
+
+    position: relative;
+    height: 370px;
+    width: 550px;
+    top: -70px;
 
 }
