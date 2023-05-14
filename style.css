@@ -270,7 +270,6 @@
 
 
 
-
 #integrante {
 
     width: 247px;
@@ -278,11 +277,18 @@
 
 }
 
+#integrante3 {
+
+    width: 254px;
 
 
+}
 
+#integrante4 {
 
+    width: 380px;
 
+}
 
 
 
@@ -467,22 +473,11 @@
 
 }
 
-#caixaAmg2 {
-
-    position: relative;
-    margin-left: 80px;
-    background-color: #9c9c9c;
-    border-radius: 20px;
-    width: 550px;
-    height: 300px;
-
-}
 
 #imgAmg2 {
 
     position: relative;
-    height: 370px;
-    width: 550px;
-    top: -70px;
+    height: 400px;
 
+    top: 212px
 }
